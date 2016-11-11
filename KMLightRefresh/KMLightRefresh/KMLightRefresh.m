@@ -45,6 +45,13 @@ typedef enum NSInteger {
 
 - (void)setupUI {
     
+    UILabel *label = [[UILabel alloc]init];
+    label.font = [UIFont systemFontOfSize:12];
+    label.textAlignment = NSTextAlignmentCenter;
+    [label setTextColor:[UIColor lightGrayColor]];
+    label.text = @"下拉刷新";
+    
+    
 }
 
 @end
