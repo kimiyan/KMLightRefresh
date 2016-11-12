@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface KMLightRefresh : UIControl
+- (instancetype)initWithHeight: (CGFloat) height;
 
+
+/**
+ 结束刷新
+ */
+-(void)endRefresh;
 @end

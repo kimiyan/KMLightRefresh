@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		961A299B1DD6C7D300962069 /* image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 961A299A1DD6C7D300962069 /* image.bundle */; };
 		963E09D11DD62825008EAA43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E09D01DD62825008EAA43 /* main.m */; };
 		963E09D41DD62825008EAA43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E09D31DD62825008EAA43 /* AppDelegate.m */; };
 		963E09D71DD62825008EAA43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E09D61DD62825008EAA43 /* ViewController.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		961A299A1DD6C7D300962069 /* image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = image.bundle; sourceTree = "<group>"; };
 		963E09CC1DD62825008EAA43 /* KMLightRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMLightRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		963E09D01DD62825008EAA43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		963E09D21DD62825008EAA43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				963E09D61DD62825008EAA43 /* ViewController.m */,
 				963E09E61DD628E1008EAA43 /* KMLightRefresh.h */,
 				963E09E71DD628E1008EAA43 /* KMLightRefresh.m */,
+				961A299A1DD6C7D300962069 /* image.bundle */,
 				963E09D81DD62825008EAA43 /* Main.storyboard */,
 				963E09DB1DD62825008EAA43 /* Assets.xcassets */,
 				963E09DD1DD62825008EAA43 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				963E09DF1DD62825008EAA43 /* LaunchScreen.storyboard in Resources */,
 				963E09DC1DD62825008EAA43 /* Assets.xcassets in Resources */,
 				963E09DA1DD62825008EAA43 /* Main.storyboard in Resources */,
+				961A299B1DD6C7D300962069 /* image.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +317,7 @@
 				963E09E51DD62825008EAA43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
